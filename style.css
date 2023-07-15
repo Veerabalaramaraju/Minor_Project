@@ -1,0 +1,58 @@
+body
+{
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/14/10/15/flag-of-india-5041783_1280.jpg);
+    margin: 0;
+    background-attachment: fixed;
+}
+header
+{
+    color: aqua;
+    text-shadow: 2px 2px red;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    font-size: 25px;
+}
+.gridclass 
+{
+    display: grid;
+}
+.section
+{
+    background-color:transparent;
+    display: flex;
+    justify-self: unset;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0cap;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.section img
+{
+    height: 150px;
+}
+.section h2
+{
+    margin: 0;
+    color:blue;
+    text-decoration-line: underline;
+}
+.section p
+{
+    color:black;
+}
+footer 
+{
+    color: aqua;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    font-size: 15px;
+}
